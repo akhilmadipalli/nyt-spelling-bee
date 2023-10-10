@@ -1,7 +1,7 @@
 #import list of words
 from english_words import english_words_lower_set
 
-#access the list of words like this:
+#access the list of words:
 words = english_words_lower_set
 
 #list of alphabet
@@ -10,7 +10,7 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j',
                 'u', 'v', 'w', 'x', 'y', 'z']
 
 
-#takes list of spelling bee letters and center letter
+#take list of spelling bee letters and center letter
 def answers(letters_list, center_letter):    
 
   #find not included letters
@@ -26,7 +26,7 @@ def answers(letters_list, center_letter):
       
       
       
-# Test the functionTn
+# Test the function
 
 if __name__ == '__main__':
   lst = [*input("What are your letters?: ")]
